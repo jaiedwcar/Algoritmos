@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+   int cal1,cal2,cal3; float promedio;
+   printf("digite las calificaciones del alumno:\n") ;
+   scanf("%d  %d  %d" ,&cal1,&cal2,&cal3) ;
+   promedio = ( cal1 + cal2 + cal3)/3.;//El 3. es necesario por la conversión de tipos
+   if ( promedio > 95 )
+        promedio = 100;
+   printf("El promedio del alumno es:  %.2f",promedio);
+   getch(); return 0;
+}
