@@ -10,5 +10,4 @@ main()
    else
     printf ("Reprobado")
   getch () ;
-  return    0;
-}
+  return    0;}
