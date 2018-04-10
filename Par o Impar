@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+      int num;
+      printf("Introducir un número:\n");
+      scanf("%d",&num);
+      if ( num % 2 == 0 )
+           printf("%d es par.",num);
+      else
+           printf("%d es impar.",num);
+      getch();
+      return  0;}
